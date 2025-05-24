@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Fish as Fist } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const Navbar: React.FC = () => {
@@ -45,7 +45,7 @@ const Navbar: React.FC = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-2">
-            <Fist className="h-8 w-8 text-red-600" />
+            <img src="/Why_because_its_red.png" alt="We Rise Logo" className="h-8 w-auto" />
             <span className="text-white font-bold text-xl tracking-wider">WE RISE</span>
           </Link>
           

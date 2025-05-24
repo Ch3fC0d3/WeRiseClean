@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Button from '../components/Button';
 
+
 const HomePage: React.FC = () => {
   return (
     <div className="flex flex-col">
@@ -17,7 +18,7 @@ const HomePage: React.FC = () => {
             playsInline
             className="absolute inset-0 w-full h-full object-cover opacity-50"
           >
-            <source src="/people.mp4" type="video/mp4" />
+            <source src={`${import.meta.env.BASE_URL}people.mp4`} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
           <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/90" />
