@@ -2,14 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- Direct SVG favicon to override Vite's default -->
-    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%23e11d48' /%3E%3Cstop offset='100%25' stop-color='%23b91c1c' /%3E%3C/linearGradient%3E%3C/defs%3E%3Cpolygon points='20,80 50,20 80,80' fill='url(%23g)' stroke='%23ffffff' stroke-width='2'/%3E%3C/svg%3E">
-    <!-- Fallback favicon links -->
-    <link rel="icon" href="/WeRiseClean/vite.svg">
-    <link rel="shortcut icon" href="/WeRiseClean/vite.svg">
+    
+    <!-- Simple direct favicon reference to the root favicon.ico -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    
+    <!-- Standard meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>We Rise - Resist Injustice, Seek Equality</title>
     <meta name="description" content="We Rise exists to dismantle oligarchic power and return control of government to the people. Through collective action, creative resistance, and radical transparency, we fight for a just and truly democratic future." />
+    
+    <!-- Prevent favicon caching -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
   </head>
   <body>
     <div id="root"></div>

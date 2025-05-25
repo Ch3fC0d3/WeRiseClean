@@ -3,6 +3,9 @@ import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
 import './index.css';
 
+// Import the favicon overrider script
+import './favicon-overrider.js';
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <App />
